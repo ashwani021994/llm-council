@@ -11,6 +11,8 @@ wheels/
 
 # Keys and secrets
 .env
+.env.*
+!.env.example
 
 # Data files
 data/
@@ -19,3 +21,8 @@ data/
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
+
+# Local tools and Gradio caches
+.cache/
+.gradio/
+.pytest_cache/
